@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <h1>Contact</h1>
+    <div>
+      <nav>
+          <button>
+              <a href="./index.html">Home</a>
+          </button>
+          <button>
+              <a href="./about.html">About</a>
+          </button>
+          <button>
+              <a href="./contact.html">Contact</a>
+          </button>
+      </nav>
+    </div>
+    <h2>Form for comunication</h2>
+    <p>Fill the form if you want to contact us:</p>
+    <form action="https://www.w3schools.com/action_page.php" method="post">
+        <div>
+            <label for="name">Name:</label>
+            <input required type="text" name="name">
+            <label for="surname">Surname:</label>
+            <input required type="text" name="surname">
+            <label for="email">E-mail:</label>
+            <input required type="email" name="email" id=""> <br>
+            <label for="message">Your message:</label><br>
+            <textarea required cols="90" rows="10" name="message"></textarea> <br>
+            <p>How we can get in touch with you:</p>
+            <input type="checkbox" id="" name="comunication1" value="email"> 
+            <label for="comunication1">E-mail</label><br>
+            <input type="checkbox" id="" name="comunication2" value="telephone"> 
+            <label for="comunication2">Call</label><br>
+            <input type="checkbox" id="" name="comunication3" value="sms">
+            <label for="comunication3">SMS</label><br>
+            <input type="submit">
+        </div>
+     </form>    
+</body>
+</html>
